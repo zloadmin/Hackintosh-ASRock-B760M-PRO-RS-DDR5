@@ -641,24 +641,6 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BrcmFirmwareRepo.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.9</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BrcmFirmwareRepo</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
             </array>
             <key>Block</key>
             <array>
@@ -904,7 +886,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>agdpmod=pikera alcid=66 -wegnoigpu ipc_control_port_options=0</string>
+                    <string>agdpmod=pikera alcid=66 -wegnoigpu ipc_control_port_options=0 revcpu=1</string>
                     <key>csr-active-config</key>
                     <data>fwoAAA==</data>
                     <key>run-efi-updater</key>
@@ -1054,7 +1036,7 @@
                 <key>AudioCodec</key>
                 <integer>0</integer>
                 <key>AudioDevice</key>
-                <string></string>
+                <string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
                 <key>AudioOutMask</key>
                 <integer>-1</integer>
                 <key>AudioSupport</key>
